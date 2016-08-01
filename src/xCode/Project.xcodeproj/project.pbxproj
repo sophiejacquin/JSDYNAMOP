@@ -1,0 +1,2243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		209BF04B40EC44E29E2B849F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51DC7D5F96084735A1C3497B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				447CDC861C4F42089E62488B /* CMake Rules */,
+			);
+			dependencies = (
+				72BF16957EFD4CA3A0C04E96 /* PBXTargetDependency */,
+				39F3CA05868D4EB7A4274CE6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7D17FCDD74914F77AD348D6B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0111E29CDD9E4B788E761C9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				942F6B485DB442048B30AB50 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22AE56121AEFAACF00A74A7F /* CMakeCCompilerId.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE559D1AEFAACF00A74A7F /* CMakeCCompilerId.c */; };
+		22AE56131AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AE55A01AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */; };
+		22AE56141AEFAACF00A74A7F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 22AE55BB1AEFAACF00A74A7F /* Makefile */; };
+		22AE56151AEFAACF00A74A7F /* OneMachineEA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AE55BE1AEFAACF00A74A7F /* OneMachineEA.cpp */; };
+		22AE56161AEFAACF00A74A7F /* CMakeCCompilerId.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE55E31AEFAACF00A74A7F /* CMakeCCompilerId.c */; };
+		22AE56171AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AE55E61AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */; };
+		22AE56181AEFAACF00A74A7F /* OneMachineEA.d in Sources */ = {isa = PBXBuildFile; fileRef = 22AE56001AEFAACF00A74A7F /* OneMachineEA.d */; };
+		488CD52D3C48476FBBE4355D /* OneMachineEA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B54113AA27204A8992330AF0 /* OneMachineEA.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3787AE7E166D44FCBCF54D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA46443BEAE1464C85934BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D17FCDD74914F77AD348D6B;
+			remoteInfo = ZERO_CHECK;
+		};
+		8F056ED8EB7D463DB3D19352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA46443BEAE1464C85934BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8995CC6529F047F28CD6CFCE;
+			remoteInfo = OneMachineEA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22AE54A71AEFA7BE00A74A7F /* callgrind.out.23045 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = callgrind.out.23045; sourceTree = "<group>"; };
+		22AE54A81AEFA7BE00A74A7F /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		22AE54A91AEFA7BE00A74A7F /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		22AE54AB1AEFA7BE00A74A7F /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		22AE54AC1AEFA7BE00A74A7F /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		22AE54AD1AEFA7BE00A74A7F /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		22AE54AE1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		22AE54AF1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		22AE54B01AEFA7BE00A74A7F /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		22AE54B11AEFA7BE00A74A7F /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		22AE54B21AEFA7BE00A74A7F /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		22AE54BE1AEFA7BE00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE54BF1AEFA7BE00A74A7F /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		22AE54C11AEFA7BE00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE54C21AEFA7BE00A74A7F /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		22AE54C31AEFA7BE00A74A7F /* Makefile.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		22AE54C41AEFA7BE00A74A7F /* Makefile2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+		22AE54C61AEFA7BE00A74A7F /* build.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.make; sourceTree = "<group>"; };
+		22AE54C71AEFA7BE00A74A7F /* cmake_clean.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		22AE54C81AEFA7BE00A74A7F /* CXX.includecache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CXX.includecache; sourceTree = "<group>"; };
+		22AE54C91AEFA7BE00A74A7F /* depend.internal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = depend.internal; sourceTree = "<group>"; };
+		22AE54CA1AEFA7BE00A74A7F /* depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = depend.make; sourceTree = "<group>"; };
+		22AE54CB1AEFA7BE00A74A7F /* DependInfo.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		22AE54CC1AEFA7BE00A74A7F /* flags.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flags.make; sourceTree = "<group>"; };
+		22AE54CD1AEFA7BE00A74A7F /* link.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		22AE54CE1AEFA7BE00A74A7F /* OneMachineEA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneMachineEA.o; sourceTree = "<group>"; };
+		22AE54CF1AEFA7BE00A74A7F /* progress.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progress.make; sourceTree = "<group>"; };
+		22AE54D01AEFA7BE00A74A7F /* progress.marks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		22AE54D11AEFA7BE00A74A7F /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		22AE54D21AEFA7BE00A74A7F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		22AE54D31AEFA7BE00A74A7F /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		22AE54D41AEFA7BE00A74A7F /* eoOneMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachine.h; sourceTree = "<group>"; };
+		22AE54D51AEFA7BE00A74A7F /* eoOneMachineEvalFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineEvalFunc.h; sourceTree = "<group>"; };
+		22AE54D61AEFA7BE00A74A7F /* eoOneMachineInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineInit.h; sourceTree = "<group>"; };
+		22AE54D71AEFA7BE00A74A7F /* eoOneMachineMutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineMutation.h; sourceTree = "<group>"; };
+		22AE54D81AEFA7BE00A74A7F /* eoOneMachineQuadCrossover copie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "eoOneMachineQuadCrossover copie.h"; sourceTree = "<group>"; };
+		22AE54D91AEFA7BE00A74A7F /* eoOneMachineQuadCrossover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineQuadCrossover.h; sourceTree = "<group>"; };
+		22AE54DA1AEFA7BE00A74A7F /* eoOneMachineStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineStat.h; sourceTree = "<group>"; };
+		22AE54DB1AEFA7BE00A74A7F /* hybridDP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybridDP.h; sourceTree = "<group>"; };
+		22AE54DC1AEFA7BE00A74A7F /* Jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jobs.h; sourceTree = "<group>"; };
+		22AE54DD1AEFA7BE00A74A7F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		22AE54DE1AEFA7BE00A74A7F /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		22AE54DF1AEFA7BE00A74A7F /* OneMachineEA */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = "<group>"; };
+		22AE54E01AEFA7BE00A74A7F /* OneMachineEA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneMachineEA.cpp; sourceTree = "<group>"; };
+		22AE54E11AEFA7BE00A74A7F /* OneMachineEA.status */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.status; sourceTree = "<group>"; };
+		22AE54E21AEFA7BE00A74A7F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		22AE54E41AEFA7BE00A74A7F /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		22AE54E51AEFA7BE00A74A7F /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		22AE54E71AEFA7BE00A74A7F /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		22AE54E81AEFA7BE00A74A7F /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		22AE54E91AEFA7BE00A74A7F /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		22AE54EA1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		22AE54EB1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		22AE54EC1AEFA7BE00A74A7F /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		22AE54ED1AEFA7BE00A74A7F /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		22AE54FD1AEFA7BE00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CMAKE_TRY_COMPILE.xcodeproj; sourceTree = "<group>"; };
+		22AE55041AEFA7BE00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55051AEFA7BE00A74A7F /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		22AE55071AEFA7BE00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55081AEFA7BE00A74A7F /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		22AE55091AEFA7BE00A74A7F /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		22AE550B1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE550C1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE550D1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE550E1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE550F1AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55101AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55111AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55121AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE55131AEFA7BE00A74A7F /* ReRunCMake.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReRunCMake.make; sourceTree = "<group>"; };
+		22AE55141AEFA7BE00A74A7F /* XCODE_DEPEND_HELPER.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XCODE_DEPEND_HELPER.make; sourceTree = "<group>"; };
+		22AE55151AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55161AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55171AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55181AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE551A1AEFA7BE00A74A7F /* OneMachineEA */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = "<group>"; };
+		22AE551E1AEFA7BE00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE551F1AEFA7BE00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE55221AEFA7BE00A74A7F /* OneMachineEA.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = OneMachineEA.d; sourceTree = "<group>"; };
+		22AE55231AEFA7BE00A74A7F /* OneMachineEA.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.LinkFileList; sourceTree = "<group>"; };
+		22AE55241AEFA7BE00A74A7F /* OneMachineEA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneMachineEA.o; sourceTree = "<group>"; };
+		22AE55251AEFA7BE00A74A7F /* OneMachineEA.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.dep; sourceTree = "<group>"; };
+		22AE55261AEFA7BE00A74A7F /* OneMachineEA~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OneMachineEA~.dep"; sourceTree = "<group>"; };
+		22AE55271AEFA7BE00A74A7F /* Script-0913F6318DD84002AD537C18.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-0913F6318DD84002AD537C18.sh"; sourceTree = "<group>"; };
+		22AE55281AEFA7BE00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-3AD188D620524EEB8878CF9F.sh"; sourceTree = "<group>"; };
+		22AE552A1AEFA7BE00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE552B1AEFA7BE00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE552C1AEFA7BE00A74A7F /* Script-942F6B485DB442048B30AB50.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-942F6B485DB442048B30AB50.sh"; sourceTree = "<group>"; };
+		22AE552D1AEFA7BE00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-CFC47FDAA1104887A5B7A435.sh"; sourceTree = "<group>"; };
+		22AE552E1AEFA7BE00A74A7F /* ZERO_CHECK.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK.dep; sourceTree = "<group>"; };
+		22AE552F1AEFA7BE00A74A7F /* ZERO_CHECK~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZERO_CHECK~.dep"; sourceTree = "<group>"; };
+		22AE55301AEFA7BE00A74A7F /* Project.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Project.xcodeproj; sourceTree = "<group>"; };
+		22AE55341AEFA83E00A74A7F /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		22AE55351AEFA83E00A74A7F /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		22AE55371AEFA83E00A74A7F /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		22AE55381AEFA83E00A74A7F /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		22AE55391AEFA83E00A74A7F /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		22AE553A1AEFA83E00A74A7F /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		22AE553B1AEFA83E00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		22AE553C1AEFA83E00A74A7F /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		22AE553D1AEFA83E00A74A7F /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		22AE554D1AEFA83E00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CMAKE_TRY_COMPILE.xcodeproj; sourceTree = "<group>"; };
+		22AE55541AEFA83E00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55551AEFA83E00A74A7F /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		22AE55571AEFA83E00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55581AEFA83E00A74A7F /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		22AE55591AEFA83E00A74A7F /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		22AE555B1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE555C1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE555D1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE555E1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE555F1AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55601AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55611AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55621AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE55631AEFA83E00A74A7F /* ReRunCMake.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReRunCMake.make; sourceTree = "<group>"; };
+		22AE55641AEFA83E00A74A7F /* XCODE_DEPEND_HELPER.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XCODE_DEPEND_HELPER.make; sourceTree = "<group>"; };
+		22AE55651AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55661AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55671AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55681AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE556A1AEFA83E00A74A7F /* OneMachineEA */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = "<group>"; };
+		22AE556E1AEFA83E00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE556F1AEFA83E00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE55721AEFA83E00A74A7F /* OneMachineEA.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = OneMachineEA.d; sourceTree = "<group>"; };
+		22AE55731AEFA83E00A74A7F /* OneMachineEA.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.LinkFileList; sourceTree = "<group>"; };
+		22AE55741AEFA83E00A74A7F /* OneMachineEA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneMachineEA.o; sourceTree = "<group>"; };
+		22AE55751AEFA83E00A74A7F /* OneMachineEA.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.dep; sourceTree = "<group>"; };
+		22AE55761AEFA83E00A74A7F /* OneMachineEA~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OneMachineEA~.dep"; sourceTree = "<group>"; };
+		22AE55771AEFA83E00A74A7F /* Script-0913F6318DD84002AD537C18.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-0913F6318DD84002AD537C18.sh"; sourceTree = "<group>"; };
+		22AE55781AEFA83E00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-3AD188D620524EEB8878CF9F.sh"; sourceTree = "<group>"; };
+		22AE557A1AEFA83E00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE557B1AEFA83E00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE557C1AEFA83E00A74A7F /* Script-942F6B485DB442048B30AB50.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-942F6B485DB442048B30AB50.sh"; sourceTree = "<group>"; };
+		22AE557D1AEFA83E00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-CFC47FDAA1104887A5B7A435.sh"; sourceTree = "<group>"; };
+		22AE557E1AEFA83E00A74A7F /* ZERO_CHECK.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK.dep; sourceTree = "<group>"; };
+		22AE557F1AEFA83E00A74A7F /* ZERO_CHECK~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZERO_CHECK~.dep"; sourceTree = "<group>"; };
+		22AE55801AEFA83E00A74A7F /* Project.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Project.xcodeproj; sourceTree = "<group>"; };
+		22AE55831AEFA83E00A74A7F /* Project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Project.xcworkspace; sourceTree = "<group>"; };
+		22AE55851AEFAACF00A74A7F /* callgrind.out.23045 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = callgrind.out.23045; sourceTree = "<group>"; };
+		22AE55861AEFAACF00A74A7F /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		22AE55871AEFAACF00A74A7F /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		22AE55891AEFAACF00A74A7F /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		22AE558A1AEFAACF00A74A7F /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		22AE558B1AEFAACF00A74A7F /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		22AE558C1AEFAACF00A74A7F /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		22AE558D1AEFAACF00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		22AE558E1AEFAACF00A74A7F /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		22AE558F1AEFAACF00A74A7F /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		22AE55901AEFAACF00A74A7F /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		22AE559C1AEFAACF00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE559D1AEFAACF00A74A7F /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		22AE559F1AEFAACF00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55A01AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		22AE55A11AEFAACF00A74A7F /* Makefile.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		22AE55A21AEFAACF00A74A7F /* Makefile2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+		22AE55A41AEFAACF00A74A7F /* build.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.make; sourceTree = "<group>"; };
+		22AE55A51AEFAACF00A74A7F /* cmake_clean.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		22AE55A61AEFAACF00A74A7F /* CXX.includecache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CXX.includecache; sourceTree = "<group>"; };
+		22AE55A71AEFAACF00A74A7F /* depend.internal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = depend.internal; sourceTree = "<group>"; };
+		22AE55A81AEFAACF00A74A7F /* depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = depend.make; sourceTree = "<group>"; };
+		22AE55A91AEFAACF00A74A7F /* DependInfo.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		22AE55AA1AEFAACF00A74A7F /* flags.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flags.make; sourceTree = "<group>"; };
+		22AE55AB1AEFAACF00A74A7F /* link.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		22AE55AC1AEFAACF00A74A7F /* OneMachineEA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneMachineEA.o; sourceTree = "<group>"; };
+		22AE55AD1AEFAACF00A74A7F /* progress.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progress.make; sourceTree = "<group>"; };
+		22AE55AE1AEFAACF00A74A7F /* progress.marks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		22AE55AF1AEFAACF00A74A7F /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		22AE55B01AEFAACF00A74A7F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		22AE55B11AEFAACF00A74A7F /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		22AE55B21AEFAACF00A74A7F /* eoOneMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachine.h; sourceTree = "<group>"; };
+		22AE55B31AEFAACF00A74A7F /* eoOneMachineEvalFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineEvalFunc.h; sourceTree = "<group>"; };
+		22AE55B41AEFAACF00A74A7F /* eoOneMachineInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineInit.h; sourceTree = "<group>"; };
+		22AE55B51AEFAACF00A74A7F /* eoOneMachineMutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineMutation.h; sourceTree = "<group>"; };
+		22AE55B61AEFAACF00A74A7F /* eoOneMachineQuadCrossover copie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "eoOneMachineQuadCrossover copie.h"; sourceTree = "<group>"; };
+		22AE55B71AEFAACF00A74A7F /* eoOneMachineQuadCrossover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineQuadCrossover.h; sourceTree = "<group>"; };
+		22AE55B81AEFAACF00A74A7F /* eoOneMachineStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eoOneMachineStat.h; sourceTree = "<group>"; };
+		22AE55B91AEFAACF00A74A7F /* hybridDP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybridDP.h; sourceTree = "<group>"; };
+		22AE55BA1AEFAACF00A74A7F /* Jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jobs.h; sourceTree = "<group>"; };
+		22AE55BB1AEFAACF00A74A7F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		22AE55BC1AEFAACF00A74A7F /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		22AE55BD1AEFAACF00A74A7F /* OneMachineEA */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = "<group>"; };
+		22AE55BE1AEFAACF00A74A7F /* OneMachineEA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneMachineEA.cpp; sourceTree = "<group>"; };
+		22AE55BF1AEFAACF00A74A7F /* OneMachineEA.status */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.status; sourceTree = "<group>"; };
+		22AE55C01AEFAACF00A74A7F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		22AE55C21AEFAACF00A74A7F /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		22AE55C31AEFAACF00A74A7F /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		22AE55C51AEFAACF00A74A7F /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		22AE55C61AEFAACF00A74A7F /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		22AE55C71AEFAACF00A74A7F /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		22AE55C81AEFAACF00A74A7F /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		22AE55C91AEFAACF00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		22AE55CA1AEFAACF00A74A7F /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		22AE55CB1AEFAACF00A74A7F /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		22AE55DB1AEFAACF00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CMAKE_TRY_COMPILE.xcodeproj; sourceTree = "<group>"; };
+		22AE55E21AEFAACF00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55E31AEFAACF00A74A7F /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		22AE55E51AEFAACF00A74A7F /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		22AE55E61AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		22AE55E71AEFAACF00A74A7F /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		22AE55E91AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55EA1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55EB1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55EC1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE55ED1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55EE1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55EF1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55F01AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA_postBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE55F11AEFAACF00A74A7F /* ReRunCMake.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReRunCMake.make; sourceTree = "<group>"; };
+		22AE55F21AEFAACF00A74A7F /* XCODE_DEPEND_HELPER.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XCODE_DEPEND_HELPER.make; sourceTree = "<group>"; };
+		22AE55F31AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		22AE55F41AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		22AE55F51AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		22AE55F61AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		22AE55F81AEFAACF00A74A7F /* OneMachineEA */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = "<group>"; };
+		22AE55FC1AEFAACF00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE55FD1AEFAACF00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE56001AEFAACF00A74A7F /* OneMachineEA.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = OneMachineEA.d; sourceTree = "<group>"; };
+		22AE56011AEFAACF00A74A7F /* OneMachineEA.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.LinkFileList; sourceTree = "<group>"; };
+		22AE56021AEFAACF00A74A7F /* OneMachineEA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneMachineEA.o; sourceTree = "<group>"; };
+		22AE56031AEFAACF00A74A7F /* OneMachineEA.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneMachineEA.dep; sourceTree = "<group>"; };
+		22AE56041AEFAACF00A74A7F /* OneMachineEA~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OneMachineEA~.dep"; sourceTree = "<group>"; };
+		22AE56051AEFAACF00A74A7F /* Script-0913F6318DD84002AD537C18.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-0913F6318DD84002AD537C18.sh"; sourceTree = "<group>"; };
+		22AE56061AEFAACF00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-3AD188D620524EEB8878CF9F.sh"; sourceTree = "<group>"; };
+		22AE56081AEFAACF00A74A7F /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		22AE56091AEFAACF00A74A7F /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		22AE560A1AEFAACF00A74A7F /* Script-942F6B485DB442048B30AB50.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-942F6B485DB442048B30AB50.sh"; sourceTree = "<group>"; };
+		22AE560B1AEFAACF00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Script-CFC47FDAA1104887A5B7A435.sh"; sourceTree = "<group>"; };
+		22AE560C1AEFAACF00A74A7F /* ZERO_CHECK.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZERO_CHECK.dep; sourceTree = "<group>"; };
+		22AE560D1AEFAACF00A74A7F /* ZERO_CHECK~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZERO_CHECK~.dep"; sourceTree = "<group>"; };
+		22AE560E1AEFAACF00A74A7F /* Project.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Project.xcodeproj; sourceTree = "<group>"; };
+		22AE56111AEFAACF00A74A7F /* Project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Project.xcworkspace; sourceTree = "<group>"; };
+		B54113AA27204A8992330AF0 /* OneMachineEA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneMachineEA.cpp; sourceTree = SOURCE_ROOT; };
+		CDD58530E5E442BDB4406BD2 /* OneMachineEA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = OneMachineEA; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69F90C7D2EC4D1ABFA7E14B /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0938C7736726455083757C60 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		22AE54A61AEFA7BE00A74A7F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54A71AEFA7BE00A74A7F /* callgrind.out.23045 */,
+				22AE54A81AEFA7BE00A74A7F /* cmake_install.cmake */,
+				22AE54A91AEFA7BE00A74A7F /* CMakeCache.txt */,
+				22AE54AA1AEFA7BE00A74A7F /* CMakeFiles */,
+				22AE54D21AEFA7BE00A74A7F /* CMakeLists.txt */,
+				22AE54D31AEFA7BE00A74A7F /* Data.h */,
+				22AE54D41AEFA7BE00A74A7F /* eoOneMachine.h */,
+				22AE54D51AEFA7BE00A74A7F /* eoOneMachineEvalFunc.h */,
+				22AE54D61AEFA7BE00A74A7F /* eoOneMachineInit.h */,
+				22AE54D71AEFA7BE00A74A7F /* eoOneMachineMutation.h */,
+				22AE54D81AEFA7BE00A74A7F /* eoOneMachineQuadCrossover copie.h */,
+				22AE54D91AEFA7BE00A74A7F /* eoOneMachineQuadCrossover.h */,
+				22AE54DA1AEFA7BE00A74A7F /* eoOneMachineStat.h */,
+				22AE54DB1AEFA7BE00A74A7F /* hybridDP.h */,
+				22AE55841AEFAACF00A74A7F /* src */,
+				22AE54DC1AEFA7BE00A74A7F /* Jobs.h */,
+				22AE54DD1AEFA7BE00A74A7F /* Makefile */,
+				22AE54DE1AEFA7BE00A74A7F /* Makefile.am */,
+				22AE54DF1AEFA7BE00A74A7F /* OneMachineEA */,
+				22AE54E01AEFA7BE00A74A7F /* OneMachineEA.cpp */,
+				22AE54E11AEFA7BE00A74A7F /* OneMachineEA.status */,
+				22AE54E21AEFA7BE00A74A7F /* Parser.h */,
+				22AE54E31AEFA7BE00A74A7F /* xCode */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		22AE54AA1AEFA7BE00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54AB1AEFA7BE00A74A7F /* cmake.check_cache */,
+				22AE54AC1AEFA7BE00A74A7F /* CMakeCCompiler.cmake */,
+				22AE54AD1AEFA7BE00A74A7F /* CMakeCXXCompiler.cmake */,
+				22AE54AE1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_C.bin */,
+				22AE54AF1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */,
+				22AE54B01AEFA7BE00A74A7F /* CMakeDirectoryInformation.cmake */,
+				22AE54B11AEFA7BE00A74A7F /* CMakeOutput.log */,
+				22AE54B21AEFA7BE00A74A7F /* CMakeSystem.cmake */,
+				22AE54B31AEFA7BE00A74A7F /* CMakeTmp */,
+				22AE54BD1AEFA7BE00A74A7F /* CompilerIdC */,
+				22AE54C01AEFA7BE00A74A7F /* CompilerIdCXX */,
+				22AE54C31AEFA7BE00A74A7F /* Makefile.cmake */,
+				22AE54C41AEFA7BE00A74A7F /* Makefile2 */,
+				22AE54C51AEFA7BE00A74A7F /* OneMachineEA.dir */,
+				22AE54D01AEFA7BE00A74A7F /* progress.marks */,
+				22AE54D11AEFA7BE00A74A7F /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE54B31AEFA7BE00A74A7F /* CMakeTmp */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54B41AEFA7BE00A74A7F /* CMakeFiles */,
+			);
+			path = CMakeTmp;
+			sourceTree = "<group>";
+		};
+		22AE54B41AEFA7BE00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54B51AEFA7BE00A74A7F /* cmTryCompileExec1028955000.dir */,
+				22AE54B61AEFA7BE00A74A7F /* cmTryCompileExec1542362786.dir */,
+				22AE54B71AEFA7BE00A74A7F /* cmTryCompileExec1710821488.dir */,
+				22AE54B81AEFA7BE00A74A7F /* cmTryCompileExec2017382979.dir */,
+				22AE54B91AEFA7BE00A74A7F /* cmTryCompileExec3077629776.dir */,
+				22AE54BA1AEFA7BE00A74A7F /* cmTryCompileExec3140805093.dir */,
+				22AE54BB1AEFA7BE00A74A7F /* cmTryCompileExec3963790846.dir */,
+				22AE54BC1AEFA7BE00A74A7F /* cmTryCompileExec89695035.dir */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE54B51AEFA7BE00A74A7F /* cmTryCompileExec1028955000.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1028955000.dir;
+			sourceTree = "<group>";
+		};
+		22AE54B61AEFA7BE00A74A7F /* cmTryCompileExec1542362786.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1542362786.dir;
+			sourceTree = "<group>";
+		};
+		22AE54B71AEFA7BE00A74A7F /* cmTryCompileExec1710821488.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1710821488.dir;
+			sourceTree = "<group>";
+		};
+		22AE54B81AEFA7BE00A74A7F /* cmTryCompileExec2017382979.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec2017382979.dir;
+			sourceTree = "<group>";
+		};
+		22AE54B91AEFA7BE00A74A7F /* cmTryCompileExec3077629776.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3077629776.dir;
+			sourceTree = "<group>";
+		};
+		22AE54BA1AEFA7BE00A74A7F /* cmTryCompileExec3140805093.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3140805093.dir;
+			sourceTree = "<group>";
+		};
+		22AE54BB1AEFA7BE00A74A7F /* cmTryCompileExec3963790846.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3963790846.dir;
+			sourceTree = "<group>";
+		};
+		22AE54BC1AEFA7BE00A74A7F /* cmTryCompileExec89695035.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec89695035.dir;
+			sourceTree = "<group>";
+		};
+		22AE54BD1AEFA7BE00A74A7F /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54BE1AEFA7BE00A74A7F /* a.out */,
+				22AE54BF1AEFA7BE00A74A7F /* CMakeCCompilerId.c */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		22AE54C01AEFA7BE00A74A7F /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54C11AEFA7BE00A74A7F /* a.out */,
+				22AE54C21AEFA7BE00A74A7F /* CMakeCXXCompilerId.cpp */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		22AE54C51AEFA7BE00A74A7F /* OneMachineEA.dir */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54C61AEFA7BE00A74A7F /* build.make */,
+				22AE54C71AEFA7BE00A74A7F /* cmake_clean.cmake */,
+				22AE54C81AEFA7BE00A74A7F /* CXX.includecache */,
+				22AE54C91AEFA7BE00A74A7F /* depend.internal */,
+				22AE54CA1AEFA7BE00A74A7F /* depend.make */,
+				22AE54CB1AEFA7BE00A74A7F /* DependInfo.cmake */,
+				22AE54CC1AEFA7BE00A74A7F /* flags.make */,
+				22AE54CD1AEFA7BE00A74A7F /* link.txt */,
+				22AE54CE1AEFA7BE00A74A7F /* OneMachineEA.o */,
+				22AE54CF1AEFA7BE00A74A7F /* progress.make */,
+			);
+			path = OneMachineEA.dir;
+			sourceTree = "<group>";
+		};
+		22AE54E31AEFA7BE00A74A7F /* xCode */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54E41AEFA7BE00A74A7F /* cmake_install.cmake */,
+				22AE54E51AEFA7BE00A74A7F /* CMakeCache.txt */,
+				22AE54E61AEFA7BE00A74A7F /* CMakeFiles */,
+				22AE550A1AEFA7BE00A74A7F /* CMakeScripts */,
+				22AE55191AEFA7BE00A74A7F /* Debug */,
+				22AE551B1AEFA7BE00A74A7F /* Project.build */,
+				22AE55301AEFA7BE00A74A7F /* Project.xcodeproj */,
+			);
+			path = xCode;
+			sourceTree = "<group>";
+		};
+		22AE54E61AEFA7BE00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54E71AEFA7BE00A74A7F /* cmake.check_cache */,
+				22AE54E81AEFA7BE00A74A7F /* CMakeCCompiler.cmake */,
+				22AE54E91AEFA7BE00A74A7F /* CMakeCXXCompiler.cmake */,
+				22AE54EA1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_C.bin */,
+				22AE54EB1AEFA7BE00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */,
+				22AE54EC1AEFA7BE00A74A7F /* CMakeOutput.log */,
+				22AE54ED1AEFA7BE00A74A7F /* CMakeSystem.cmake */,
+				22AE54EE1AEFA7BE00A74A7F /* CMakeTmp */,
+				22AE55031AEFA7BE00A74A7F /* CompilerIdC */,
+				22AE55061AEFA7BE00A74A7F /* CompilerIdCXX */,
+				22AE55091AEFA7BE00A74A7F /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE54EE1AEFA7BE00A74A7F /* CMakeTmp */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54EF1AEFA7BE00A74A7F /* CMAKE_TRY_COMPILE.build */,
+				22AE54FD1AEFA7BE00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */,
+				22AE55001AEFA7BE00A74A7F /* CMakeFiles */,
+				22AE55011AEFA7BE00A74A7F /* CMakeScripts */,
+				22AE55021AEFA7BE00A74A7F /* Debug */,
+			);
+			path = CMakeTmp;
+			sourceTree = "<group>";
+		};
+		22AE54EF1AEFA7BE00A74A7F /* CMAKE_TRY_COMPILE.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F01AEFA7BE00A74A7F /* Debug */,
+			);
+			path = CMAKE_TRY_COMPILE.build;
+			sourceTree = "<group>";
+		};
+		22AE54F01AEFA7BE00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F11AEFA7BE00A74A7F /* cmTryCompileExec1147821153.build */,
+				22AE54F41AEFA7BE00A74A7F /* cmTryCompileExec1961526294.build */,
+				22AE54F71AEFA7BE00A74A7F /* cmTryCompileExec2384429753.build */,
+				22AE54FA1AEFA7BE00A74A7F /* cmTryCompileExec2984162658.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE54F11AEFA7BE00A74A7F /* cmTryCompileExec1147821153.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F21AEFA7BE00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1147821153.build;
+			sourceTree = "<group>";
+		};
+		22AE54F21AEFA7BE00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F31AEFA7BE00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE54F31AEFA7BE00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE54F41AEFA7BE00A74A7F /* cmTryCompileExec1961526294.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F51AEFA7BE00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1961526294.build;
+			sourceTree = "<group>";
+		};
+		22AE54F51AEFA7BE00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F61AEFA7BE00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE54F61AEFA7BE00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE54F71AEFA7BE00A74A7F /* cmTryCompileExec2384429753.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F81AEFA7BE00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2384429753.build;
+			sourceTree = "<group>";
+		};
+		22AE54F81AEFA7BE00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54F91AEFA7BE00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE54F91AEFA7BE00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE54FA1AEFA7BE00A74A7F /* cmTryCompileExec2984162658.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54FB1AEFA7BE00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2984162658.build;
+			sourceTree = "<group>";
+		};
+		22AE54FB1AEFA7BE00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE54FC1AEFA7BE00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE54FC1AEFA7BE00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE54FE1AEFA7BE00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE55001AEFA7BE00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55011AEFA7BE00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55021AEFA7BE00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55031AEFA7BE00A74A7F /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55041AEFA7BE00A74A7F /* a.out */,
+				22AE55051AEFA7BE00A74A7F /* CMakeCCompilerId.c */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		22AE55061AEFA7BE00A74A7F /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55071AEFA7BE00A74A7F /* a.out */,
+				22AE55081AEFA7BE00A74A7F /* CMakeCXXCompilerId.cpp */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		22AE550A1AEFA7BE00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+				22AE550B1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */,
+				22AE550C1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE550D1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */,
+				22AE550E1AEFA7BE00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+				22AE550F1AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */,
+				22AE55101AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */,
+				22AE55111AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */,
+				22AE55121AEFA7BE00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */,
+				22AE55131AEFA7BE00A74A7F /* ReRunCMake.make */,
+				22AE55141AEFA7BE00A74A7F /* XCODE_DEPEND_HELPER.make */,
+				22AE55151AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */,
+				22AE55161AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE55171AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */,
+				22AE55181AEFA7BE00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55191AEFA7BE00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE551A1AEFA7BE00A74A7F /* OneMachineEA */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE551B1AEFA7BE00A74A7F /* Project.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE551C1AEFA7BE00A74A7F /* Debug */,
+			);
+			path = Project.build;
+			sourceTree = "<group>";
+		};
+		22AE551C1AEFA7BE00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE551D1AEFA7BE00A74A7F /* OneMachineEA.build */,
+				22AE55291AEFA7BE00A74A7F /* ZERO_CHECK.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE551D1AEFA7BE00A74A7F /* OneMachineEA.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE551E1AEFA7BE00A74A7F /* build-state.dat */,
+				22AE551F1AEFA7BE00A74A7F /* build-state~.dat */,
+				22AE55201AEFA7BE00A74A7F /* Objects-normal */,
+				22AE55251AEFA7BE00A74A7F /* OneMachineEA.dep */,
+				22AE55261AEFA7BE00A74A7F /* OneMachineEA~.dep */,
+				22AE55271AEFA7BE00A74A7F /* Script-0913F6318DD84002AD537C18.sh */,
+				22AE55281AEFA7BE00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */,
+			);
+			path = OneMachineEA.build;
+			sourceTree = "<group>";
+		};
+		22AE55201AEFA7BE00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55211AEFA7BE00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55211AEFA7BE00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55221AEFA7BE00A74A7F /* OneMachineEA.d */,
+				22AE55231AEFA7BE00A74A7F /* OneMachineEA.LinkFileList */,
+				22AE55241AEFA7BE00A74A7F /* OneMachineEA.o */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55291AEFA7BE00A74A7F /* ZERO_CHECK.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE552A1AEFA7BE00A74A7F /* build-state.dat */,
+				22AE552B1AEFA7BE00A74A7F /* build-state~.dat */,
+				22AE552C1AEFA7BE00A74A7F /* Script-942F6B485DB442048B30AB50.sh */,
+				22AE552D1AEFA7BE00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */,
+				22AE552E1AEFA7BE00A74A7F /* ZERO_CHECK.dep */,
+				22AE552F1AEFA7BE00A74A7F /* ZERO_CHECK~.dep */,
+			);
+			path = ZERO_CHECK.build;
+			sourceTree = "<group>";
+		};
+		22AE55311AEFA7BE00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE55331AEFA83E00A74A7F /* xCode */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55341AEFA83E00A74A7F /* cmake_install.cmake */,
+				22AE55351AEFA83E00A74A7F /* CMakeCache.txt */,
+				22AE55361AEFA83E00A74A7F /* CMakeFiles */,
+				22AE555A1AEFA83E00A74A7F /* CMakeScripts */,
+				22AE55691AEFA83E00A74A7F /* Debug */,
+				22AE556B1AEFA83E00A74A7F /* Project.build */,
+				22AE55801AEFA83E00A74A7F /* Project.xcodeproj */,
+				22AE55831AEFA83E00A74A7F /* Project.xcworkspace */,
+			);
+			path = xCode;
+			sourceTree = "<group>";
+		};
+		22AE55361AEFA83E00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55371AEFA83E00A74A7F /* cmake.check_cache */,
+				22AE55381AEFA83E00A74A7F /* CMakeCCompiler.cmake */,
+				22AE55391AEFA83E00A74A7F /* CMakeCXXCompiler.cmake */,
+				22AE553A1AEFA83E00A74A7F /* CMakeDetermineCompilerABI_C.bin */,
+				22AE553B1AEFA83E00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */,
+				22AE553C1AEFA83E00A74A7F /* CMakeOutput.log */,
+				22AE553D1AEFA83E00A74A7F /* CMakeSystem.cmake */,
+				22AE553E1AEFA83E00A74A7F /* CMakeTmp */,
+				22AE55531AEFA83E00A74A7F /* CompilerIdC */,
+				22AE55561AEFA83E00A74A7F /* CompilerIdCXX */,
+				22AE55591AEFA83E00A74A7F /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE553E1AEFA83E00A74A7F /* CMakeTmp */ = {
+			isa = PBXGroup;
+			children = (
+				22AE553F1AEFA83E00A74A7F /* CMAKE_TRY_COMPILE.build */,
+				22AE554D1AEFA83E00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */,
+				22AE55501AEFA83E00A74A7F /* CMakeFiles */,
+				22AE55511AEFA83E00A74A7F /* CMakeScripts */,
+				22AE55521AEFA83E00A74A7F /* Debug */,
+			);
+			path = CMakeTmp;
+			sourceTree = "<group>";
+		};
+		22AE553F1AEFA83E00A74A7F /* CMAKE_TRY_COMPILE.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55401AEFA83E00A74A7F /* Debug */,
+			);
+			path = CMAKE_TRY_COMPILE.build;
+			sourceTree = "<group>";
+		};
+		22AE55401AEFA83E00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55411AEFA83E00A74A7F /* cmTryCompileExec1147821153.build */,
+				22AE55441AEFA83E00A74A7F /* cmTryCompileExec1961526294.build */,
+				22AE55471AEFA83E00A74A7F /* cmTryCompileExec2384429753.build */,
+				22AE554A1AEFA83E00A74A7F /* cmTryCompileExec2984162658.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55411AEFA83E00A74A7F /* cmTryCompileExec1147821153.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55421AEFA83E00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1147821153.build;
+			sourceTree = "<group>";
+		};
+		22AE55421AEFA83E00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55431AEFA83E00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55431AEFA83E00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55441AEFA83E00A74A7F /* cmTryCompileExec1961526294.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55451AEFA83E00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1961526294.build;
+			sourceTree = "<group>";
+		};
+		22AE55451AEFA83E00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55461AEFA83E00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55461AEFA83E00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55471AEFA83E00A74A7F /* cmTryCompileExec2384429753.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55481AEFA83E00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2384429753.build;
+			sourceTree = "<group>";
+		};
+		22AE55481AEFA83E00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55491AEFA83E00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55491AEFA83E00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE554A1AEFA83E00A74A7F /* cmTryCompileExec2984162658.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE554B1AEFA83E00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2984162658.build;
+			sourceTree = "<group>";
+		};
+		22AE554B1AEFA83E00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE554C1AEFA83E00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE554C1AEFA83E00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE554E1AEFA83E00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE55501AEFA83E00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55511AEFA83E00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55521AEFA83E00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55531AEFA83E00A74A7F /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55541AEFA83E00A74A7F /* a.out */,
+				22AE55551AEFA83E00A74A7F /* CMakeCCompilerId.c */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		22AE55561AEFA83E00A74A7F /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55571AEFA83E00A74A7F /* a.out */,
+				22AE55581AEFA83E00A74A7F /* CMakeCXXCompilerId.cpp */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		22AE555A1AEFA83E00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+				22AE555B1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */,
+				22AE555C1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE555D1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */,
+				22AE555E1AEFA83E00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+				22AE555F1AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */,
+				22AE55601AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */,
+				22AE55611AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */,
+				22AE55621AEFA83E00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */,
+				22AE55631AEFA83E00A74A7F /* ReRunCMake.make */,
+				22AE55641AEFA83E00A74A7F /* XCODE_DEPEND_HELPER.make */,
+				22AE55651AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */,
+				22AE55661AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE55671AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */,
+				22AE55681AEFA83E00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55691AEFA83E00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE556A1AEFA83E00A74A7F /* OneMachineEA */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE556B1AEFA83E00A74A7F /* Project.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE556C1AEFA83E00A74A7F /* Debug */,
+			);
+			path = Project.build;
+			sourceTree = "<group>";
+		};
+		22AE556C1AEFA83E00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE556D1AEFA83E00A74A7F /* OneMachineEA.build */,
+				22AE55791AEFA83E00A74A7F /* ZERO_CHECK.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE556D1AEFA83E00A74A7F /* OneMachineEA.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE556E1AEFA83E00A74A7F /* build-state.dat */,
+				22AE556F1AEFA83E00A74A7F /* build-state~.dat */,
+				22AE55701AEFA83E00A74A7F /* Objects-normal */,
+				22AE55751AEFA83E00A74A7F /* OneMachineEA.dep */,
+				22AE55761AEFA83E00A74A7F /* OneMachineEA~.dep */,
+				22AE55771AEFA83E00A74A7F /* Script-0913F6318DD84002AD537C18.sh */,
+				22AE55781AEFA83E00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */,
+			);
+			path = OneMachineEA.build;
+			sourceTree = "<group>";
+		};
+		22AE55701AEFA83E00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55711AEFA83E00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55711AEFA83E00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55721AEFA83E00A74A7F /* OneMachineEA.d */,
+				22AE55731AEFA83E00A74A7F /* OneMachineEA.LinkFileList */,
+				22AE55741AEFA83E00A74A7F /* OneMachineEA.o */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55791AEFA83E00A74A7F /* ZERO_CHECK.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE557A1AEFA83E00A74A7F /* build-state.dat */,
+				22AE557B1AEFA83E00A74A7F /* build-state~.dat */,
+				22AE557C1AEFA83E00A74A7F /* Script-942F6B485DB442048B30AB50.sh */,
+				22AE557D1AEFA83E00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */,
+				22AE557E1AEFA83E00A74A7F /* ZERO_CHECK.dep */,
+				22AE557F1AEFA83E00A74A7F /* ZERO_CHECK~.dep */,
+			);
+			path = ZERO_CHECK.build;
+			sourceTree = "<group>";
+		};
+		22AE55811AEFA83E00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE55841AEFAACF00A74A7F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55851AEFAACF00A74A7F /* callgrind.out.23045 */,
+				22AE55861AEFAACF00A74A7F /* cmake_install.cmake */,
+				22AE55871AEFAACF00A74A7F /* CMakeCache.txt */,
+				22AE55881AEFAACF00A74A7F /* CMakeFiles */,
+				22AE55B01AEFAACF00A74A7F /* CMakeLists.txt */,
+				22AE55B11AEFAACF00A74A7F /* Data.h */,
+				22AE55B21AEFAACF00A74A7F /* eoOneMachine.h */,
+				22AE55B31AEFAACF00A74A7F /* eoOneMachineEvalFunc.h */,
+				22AE55B41AEFAACF00A74A7F /* eoOneMachineInit.h */,
+				22AE55B51AEFAACF00A74A7F /* eoOneMachineMutation.h */,
+				22AE55B61AEFAACF00A74A7F /* eoOneMachineQuadCrossover copie.h */,
+				22AE55B71AEFAACF00A74A7F /* eoOneMachineQuadCrossover.h */,
+				22AE55B81AEFAACF00A74A7F /* eoOneMachineStat.h */,
+				22AE55B91AEFAACF00A74A7F /* hybridDP.h */,
+				22AE55BA1AEFAACF00A74A7F /* Jobs.h */,
+				22AE55BB1AEFAACF00A74A7F /* Makefile */,
+				22AE55BC1AEFAACF00A74A7F /* Makefile.am */,
+				22AE55BD1AEFAACF00A74A7F /* OneMachineEA */,
+				22AE55BE1AEFAACF00A74A7F /* OneMachineEA.cpp */,
+				22AE55BF1AEFAACF00A74A7F /* OneMachineEA.status */,
+				22AE55C01AEFAACF00A74A7F /* Parser.h */,
+				22AE55C11AEFAACF00A74A7F /* xCode */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		22AE55881AEFAACF00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55891AEFAACF00A74A7F /* cmake.check_cache */,
+				22AE558A1AEFAACF00A74A7F /* CMakeCCompiler.cmake */,
+				22AE558B1AEFAACF00A74A7F /* CMakeCXXCompiler.cmake */,
+				22AE558C1AEFAACF00A74A7F /* CMakeDetermineCompilerABI_C.bin */,
+				22AE558D1AEFAACF00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */,
+				22AE558E1AEFAACF00A74A7F /* CMakeDirectoryInformation.cmake */,
+				22AE558F1AEFAACF00A74A7F /* CMakeOutput.log */,
+				22AE55901AEFAACF00A74A7F /* CMakeSystem.cmake */,
+				22AE55911AEFAACF00A74A7F /* CMakeTmp */,
+				22AE559B1AEFAACF00A74A7F /* CompilerIdC */,
+				22AE559E1AEFAACF00A74A7F /* CompilerIdCXX */,
+				22AE55A11AEFAACF00A74A7F /* Makefile.cmake */,
+				22AE55A21AEFAACF00A74A7F /* Makefile2 */,
+				22AE55A31AEFAACF00A74A7F /* OneMachineEA.dir */,
+				22AE55AE1AEFAACF00A74A7F /* progress.marks */,
+				22AE55AF1AEFAACF00A74A7F /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55911AEFAACF00A74A7F /* CMakeTmp */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55921AEFAACF00A74A7F /* CMakeFiles */,
+			);
+			path = CMakeTmp;
+			sourceTree = "<group>";
+		};
+		22AE55921AEFAACF00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55931AEFAACF00A74A7F /* cmTryCompileExec1028955000.dir */,
+				22AE55941AEFAACF00A74A7F /* cmTryCompileExec1542362786.dir */,
+				22AE55951AEFAACF00A74A7F /* cmTryCompileExec1710821488.dir */,
+				22AE55961AEFAACF00A74A7F /* cmTryCompileExec2017382979.dir */,
+				22AE55971AEFAACF00A74A7F /* cmTryCompileExec3077629776.dir */,
+				22AE55981AEFAACF00A74A7F /* cmTryCompileExec3140805093.dir */,
+				22AE55991AEFAACF00A74A7F /* cmTryCompileExec3963790846.dir */,
+				22AE559A1AEFAACF00A74A7F /* cmTryCompileExec89695035.dir */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55931AEFAACF00A74A7F /* cmTryCompileExec1028955000.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1028955000.dir;
+			sourceTree = "<group>";
+		};
+		22AE55941AEFAACF00A74A7F /* cmTryCompileExec1542362786.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1542362786.dir;
+			sourceTree = "<group>";
+		};
+		22AE55951AEFAACF00A74A7F /* cmTryCompileExec1710821488.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec1710821488.dir;
+			sourceTree = "<group>";
+		};
+		22AE55961AEFAACF00A74A7F /* cmTryCompileExec2017382979.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec2017382979.dir;
+			sourceTree = "<group>";
+		};
+		22AE55971AEFAACF00A74A7F /* cmTryCompileExec3077629776.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3077629776.dir;
+			sourceTree = "<group>";
+		};
+		22AE55981AEFAACF00A74A7F /* cmTryCompileExec3140805093.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3140805093.dir;
+			sourceTree = "<group>";
+		};
+		22AE55991AEFAACF00A74A7F /* cmTryCompileExec3963790846.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec3963790846.dir;
+			sourceTree = "<group>";
+		};
+		22AE559A1AEFAACF00A74A7F /* cmTryCompileExec89695035.dir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cmTryCompileExec89695035.dir;
+			sourceTree = "<group>";
+		};
+		22AE559B1AEFAACF00A74A7F /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				22AE559C1AEFAACF00A74A7F /* a.out */,
+				22AE559D1AEFAACF00A74A7F /* CMakeCCompilerId.c */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		22AE559E1AEFAACF00A74A7F /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				22AE559F1AEFAACF00A74A7F /* a.out */,
+				22AE55A01AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		22AE55A31AEFAACF00A74A7F /* OneMachineEA.dir */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55A41AEFAACF00A74A7F /* build.make */,
+				22AE55A51AEFAACF00A74A7F /* cmake_clean.cmake */,
+				22AE55A61AEFAACF00A74A7F /* CXX.includecache */,
+				22AE55A71AEFAACF00A74A7F /* depend.internal */,
+				22AE55A81AEFAACF00A74A7F /* depend.make */,
+				22AE55A91AEFAACF00A74A7F /* DependInfo.cmake */,
+				22AE55AA1AEFAACF00A74A7F /* flags.make */,
+				22AE55AB1AEFAACF00A74A7F /* link.txt */,
+				22AE55AC1AEFAACF00A74A7F /* OneMachineEA.o */,
+				22AE55AD1AEFAACF00A74A7F /* progress.make */,
+			);
+			path = OneMachineEA.dir;
+			sourceTree = "<group>";
+		};
+		22AE55C11AEFAACF00A74A7F /* xCode */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55C21AEFAACF00A74A7F /* cmake_install.cmake */,
+				22AE55C31AEFAACF00A74A7F /* CMakeCache.txt */,
+				22AE55C41AEFAACF00A74A7F /* CMakeFiles */,
+				22AE55E81AEFAACF00A74A7F /* CMakeScripts */,
+				22AE55F71AEFAACF00A74A7F /* Debug */,
+				22AE55F91AEFAACF00A74A7F /* Project.build */,
+				22AE560E1AEFAACF00A74A7F /* Project.xcodeproj */,
+				22AE56111AEFAACF00A74A7F /* Project.xcworkspace */,
+			);
+			path = xCode;
+			sourceTree = "<group>";
+		};
+		22AE55C41AEFAACF00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55C51AEFAACF00A74A7F /* cmake.check_cache */,
+				22AE55C61AEFAACF00A74A7F /* CMakeCCompiler.cmake */,
+				22AE55C71AEFAACF00A74A7F /* CMakeCXXCompiler.cmake */,
+				22AE55C81AEFAACF00A74A7F /* CMakeDetermineCompilerABI_C.bin */,
+				22AE55C91AEFAACF00A74A7F /* CMakeDetermineCompilerABI_CXX.bin */,
+				22AE55CA1AEFAACF00A74A7F /* CMakeOutput.log */,
+				22AE55CB1AEFAACF00A74A7F /* CMakeSystem.cmake */,
+				22AE55CC1AEFAACF00A74A7F /* CMakeTmp */,
+				22AE55E11AEFAACF00A74A7F /* CompilerIdC */,
+				22AE55E41AEFAACF00A74A7F /* CompilerIdCXX */,
+				22AE55E71AEFAACF00A74A7F /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55CC1AEFAACF00A74A7F /* CMakeTmp */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55CD1AEFAACF00A74A7F /* CMAKE_TRY_COMPILE.build */,
+				22AE55DB1AEFAACF00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */,
+				22AE55DE1AEFAACF00A74A7F /* CMakeFiles */,
+				22AE55DF1AEFAACF00A74A7F /* CMakeScripts */,
+				22AE55E01AEFAACF00A74A7F /* Debug */,
+			);
+			path = CMakeTmp;
+			sourceTree = "<group>";
+		};
+		22AE55CD1AEFAACF00A74A7F /* CMAKE_TRY_COMPILE.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55CE1AEFAACF00A74A7F /* Debug */,
+			);
+			path = CMAKE_TRY_COMPILE.build;
+			sourceTree = "<group>";
+		};
+		22AE55CE1AEFAACF00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55CF1AEFAACF00A74A7F /* cmTryCompileExec1147821153.build */,
+				22AE55D21AEFAACF00A74A7F /* cmTryCompileExec1961526294.build */,
+				22AE55D51AEFAACF00A74A7F /* cmTryCompileExec2384429753.build */,
+				22AE55D81AEFAACF00A74A7F /* cmTryCompileExec2984162658.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55CF1AEFAACF00A74A7F /* cmTryCompileExec1147821153.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D01AEFAACF00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1147821153.build;
+			sourceTree = "<group>";
+		};
+		22AE55D01AEFAACF00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D11AEFAACF00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55D11AEFAACF00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55D21AEFAACF00A74A7F /* cmTryCompileExec1961526294.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D31AEFAACF00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec1961526294.build;
+			sourceTree = "<group>";
+		};
+		22AE55D31AEFAACF00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D41AEFAACF00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55D41AEFAACF00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55D51AEFAACF00A74A7F /* cmTryCompileExec2384429753.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D61AEFAACF00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2384429753.build;
+			sourceTree = "<group>";
+		};
+		22AE55D61AEFAACF00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D71AEFAACF00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55D71AEFAACF00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55D81AEFAACF00A74A7F /* cmTryCompileExec2984162658.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55D91AEFAACF00A74A7F /* Objects-normal */,
+			);
+			path = cmTryCompileExec2984162658.build;
+			sourceTree = "<group>";
+		};
+		22AE55D91AEFAACF00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55DA1AEFAACF00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55DA1AEFAACF00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE55DC1AEFAACF00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE55DE1AEFAACF00A74A7F /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		22AE55DF1AEFAACF00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55E01AEFAACF00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55E11AEFAACF00A74A7F /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55E21AEFAACF00A74A7F /* a.out */,
+				22AE55E31AEFAACF00A74A7F /* CMakeCCompilerId.c */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		22AE55E41AEFAACF00A74A7F /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55E51AEFAACF00A74A7F /* a.out */,
+				22AE55E61AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		22AE55E81AEFAACF00A74A7F /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55E91AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */,
+				22AE55EA1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE55EB1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */,
+				22AE55EC1AEFAACF00A74A7F /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+				22AE55ED1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeDebug */,
+				22AE55EE1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeMinSizeRel */,
+				22AE55EF1AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeRelease */,
+				22AE55F01AEFAACF00A74A7F /* OneMachineEA_postBuildPhase.makeRelWithDebInfo */,
+				22AE55F11AEFAACF00A74A7F /* ReRunCMake.make */,
+				22AE55F21AEFAACF00A74A7F /* XCODE_DEPEND_HELPER.make */,
+				22AE55F31AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */,
+				22AE55F41AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */,
+				22AE55F51AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */,
+				22AE55F61AEFAACF00A74A7F /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		22AE55F71AEFAACF00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55F81AEFAACF00A74A7F /* OneMachineEA */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55F91AEFAACF00A74A7F /* Project.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55FA1AEFAACF00A74A7F /* Debug */,
+			);
+			path = Project.build;
+			sourceTree = "<group>";
+		};
+		22AE55FA1AEFAACF00A74A7F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55FB1AEFAACF00A74A7F /* OneMachineEA.build */,
+				22AE56071AEFAACF00A74A7F /* ZERO_CHECK.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		22AE55FB1AEFAACF00A74A7F /* OneMachineEA.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55FC1AEFAACF00A74A7F /* build-state.dat */,
+				22AE55FD1AEFAACF00A74A7F /* build-state~.dat */,
+				22AE55FE1AEFAACF00A74A7F /* Objects-normal */,
+				22AE56031AEFAACF00A74A7F /* OneMachineEA.dep */,
+				22AE56041AEFAACF00A74A7F /* OneMachineEA~.dep */,
+				22AE56051AEFAACF00A74A7F /* Script-0913F6318DD84002AD537C18.sh */,
+				22AE56061AEFAACF00A74A7F /* Script-3AD188D620524EEB8878CF9F.sh */,
+			);
+			path = OneMachineEA.build;
+			sourceTree = "<group>";
+		};
+		22AE55FE1AEFAACF00A74A7F /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				22AE55FF1AEFAACF00A74A7F /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		22AE55FF1AEFAACF00A74A7F /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE56001AEFAACF00A74A7F /* OneMachineEA.d */,
+				22AE56011AEFAACF00A74A7F /* OneMachineEA.LinkFileList */,
+				22AE56021AEFAACF00A74A7F /* OneMachineEA.o */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		22AE56071AEFAACF00A74A7F /* ZERO_CHECK.build */ = {
+			isa = PBXGroup;
+			children = (
+				22AE56081AEFAACF00A74A7F /* build-state.dat */,
+				22AE56091AEFAACF00A74A7F /* build-state~.dat */,
+				22AE560A1AEFAACF00A74A7F /* Script-942F6B485DB442048B30AB50.sh */,
+				22AE560B1AEFAACF00A74A7F /* Script-CFC47FDAA1104887A5B7A435.sh */,
+				22AE560C1AEFAACF00A74A7F /* ZERO_CHECK.dep */,
+				22AE560D1AEFAACF00A74A7F /* ZERO_CHECK~.dep */,
+			);
+			path = ZERO_CHECK.build;
+			sourceTree = "<group>";
+		};
+		22AE560F1AEFAACF00A74A7F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F7F63C900B4B4C8B70487C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		75BB44FAE81B4F82A6E637F0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54113AA27204A8992330AF0 /* OneMachineEA.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8533CD29F5B945ED946710AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		87BCF1E6FA064466A7C60257 = {
+			isa = PBXGroup;
+			children = (
+				22AE55331AEFA83E00A74A7F /* xCode */,
+				22AE54A61AEFA7BE00A74A7F /* src */,
+				902DC6F69EB942C3B4E53124 /* Sources */,
+				8533CD29F5B945ED946710AC /* Resources */,
+				E5184CC2743F4E088CAB8776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902DC6F69EB942C3B4E53124 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BD57FFEF81C847B591F1EBE6 /* ALL_BUILD */,
+				D919CB0622264E499004DF1F /* OneMachineEA */,
+				B4B442E742E3470BB9005E1F /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B4B442E742E3470BB9005E1F /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				23F7F63C900B4B4C8B70487C /* CMake Rules */,
+				E69F90C7D2EC4D1ABFA7E14B /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		BD57FFEF81C847B591F1EBE6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0938C7736726455083757C60 /* CMake Rules */,
+				E69F90C7D2EC4D1ABFA7E14B /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D919CB0622264E499004DF1F /* OneMachineEA */ = {
+			isa = PBXGroup;
+			children = (
+				75BB44FAE81B4F82A6E637F0 /* Source Files */,
+				E69F90C7D2EC4D1ABFA7E14B /* CMakeLists.txt */,
+			);
+			name = OneMachineEA;
+			sourceTree = "<group>";
+		};
+		E5184CC2743F4E088CAB8776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD58530E5E442BDB4406BD2 /* OneMachineEA */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8995CC6529F047F28CD6CFCE /* OneMachineEA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFC87AC7FFB4B43A7EE8FDA /* Build configuration list for PBXNativeTarget "OneMachineEA" */;
+			buildPhases = (
+				D3F33553AF7B401A9EA8035D /* Sources */,
+				0913F6318DD84002AD537C18 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F3CA05868D4EB7A4274CE6 /* PBXTargetDependency */,
+			);
+			name = OneMachineEA;
+			productName = OneMachineEA;
+			productReference = CDD58530E5E442BDB4406BD2 /* OneMachineEA */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA46443BEAE1464C85934BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BC469F16AAC84B9587A65482 /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87BCF1E6FA064466A7C60257;
+			projectDirPath = ..;
+			projectReferences = (
+				{
+					ProductGroup = 22AE54FE1AEFA7BE00A74A7F /* Products */;
+					ProjectRef = 22AE54FD1AEFA7BE00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */;
+				},
+				{
+					ProductGroup = 22AE554E1AEFA83E00A74A7F /* Products */;
+					ProjectRef = 22AE554D1AEFA83E00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */;
+				},
+				{
+					ProductGroup = 22AE55DC1AEFAACF00A74A7F /* Products */;
+					ProjectRef = 22AE55DB1AEFAACF00A74A7F /* CMAKE_TRY_COMPILE.xcodeproj */;
+				},
+				{
+					ProductGroup = 22AE55311AEFA7BE00A74A7F /* Products */;
+					ProjectRef = 22AE55301AEFA7BE00A74A7F /* Project.xcodeproj */;
+				},
+				{
+					ProductGroup = 22AE55811AEFA83E00A74A7F /* Products */;
+					ProjectRef = 22AE55801AEFA83E00A74A7F /* Project.xcodeproj */;
+				},
+				{
+					ProductGroup = 22AE560F1AEFAACF00A74A7F /* Products */;
+					ProjectRef = 22AE560E1AEFAACF00A74A7F /* Project.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				209BF04B40EC44E29E2B849F /* ALL_BUILD */,
+				8995CC6529F047F28CD6CFCE /* OneMachineEA */,
+				7D17FCDD74914F77AD348D6B /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0913F6318DD84002AD537C18 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sophiejacquin/Desktop/OneMachine/src/xCode -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/OneMachineEA_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		447CDC861C4F42089E62488B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sophiejacquin/Desktop/OneMachine/src/xCode -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		942F6B485DB442048B30AB50 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sophiejacquin/Desktop/OneMachine/src/xCode -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F33553AF7B401A9EA8035D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488CD52D3C48476FBBE4355D /* OneMachineEA.cpp in Sources */,
+				22AE56121AEFAACF00A74A7F /* CMakeCCompilerId.c in Sources */,
+				22AE56131AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp in Sources */,
+				22AE56141AEFAACF00A74A7F /* Makefile in Sources */,
+				22AE56151AEFAACF00A74A7F /* OneMachineEA.cpp in Sources */,
+				22AE56161AEFAACF00A74A7F /* CMakeCCompilerId.c in Sources */,
+				22AE56171AEFAACF00A74A7F /* CMakeCXXCompilerId.cpp in Sources */,
+				22AE56181AEFAACF00A74A7F /* OneMachineEA.d in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F3CA05868D4EB7A4274CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D17FCDD74914F77AD348D6B /* ZERO_CHECK */;
+			targetProxy = 3787AE7E166D44FCBCF54D73 /* PBXContainerItemProxy */;
+		};
+		72BF16957EFD4CA3A0C04E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8995CC6529F047F28CD6CFCE /* OneMachineEA */;
+			targetProxy = 8F056ED8EB7D463DB3D19352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		107C36B59F014F4587C5FA2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		109949FD33A64757A5F624FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		2D2B23174815412A843D4EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib",
+				);
+				OTHER_CFLAGS = "-DNDEBUG";
+				OTHER_CPLUSPLUSFLAGS = "-DNDEBUG";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-leo",
+					"-leoutils",
+					"-lga",
+					"-les",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OneMachineEA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		3234B61063934C2B9FDB51BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		4BA5A26E590D4B09B6397B12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		5C8D7AC77F0E4669B4352A03 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode/build;
+			};
+			name = MinSizeRel;
+		};
+		610AB1CCA7134CD08A478720 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		99DF6A26161748F1BF7FA43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		9B2538D3F2F64378AC9B99A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-leo",
+					"-leoutils",
+					"-lga",
+					"-les",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OneMachineEA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		9C1CFEA472FA4AB2BA593A58 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9FFDF035D4EB41EDA8105847 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-leo",
+					"-leoutils",
+					"-lga",
+					"-les",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OneMachineEA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A0F0ED5E9A08429289E5A0F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		ADF6081F618848A48974ABB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode/build;
+			};
+			name = Debug;
+		};
+		B05B8F9CBD1546B09BF53854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode/build;
+			};
+			name = Release;
+		};
+		C489179DA5B04F0DA18D9BC7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/lib",
+				);
+				OTHER_CFLAGS = "-DNDEBUG";
+				OTHER_CPLUSPLUSFLAGS = "-DNDEBUG";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-leo",
+					"-leoutils",
+					"-lga",
+					"-les",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OneMachineEA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		EE531EB227C04CD197104C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sophiejacquin/Desktop/OneMachine/src/../src,
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src",
+					"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sophiejacquin/Desktop/OneMachine/src/xCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0111E29CDD9E4B788E761C9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DF6A26161748F1BF7FA43A /* Debug */,
+				3234B61063934C2B9FDB51BB /* Release */,
+				A0F0ED5E9A08429289E5A0F2 /* MinSizeRel */,
+				610AB1CCA7134CD08A478720 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1CFC87AC7FFB4B43A7EE8FDA /* Build configuration list for PBXNativeTarget "OneMachineEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2538D3F2F64378AC9B99A2 /* Debug */,
+				2D2B23174815412A843D4EC5 /* Release */,
+				C489179DA5B04F0DA18D9BC7 /* MinSizeRel */,
+				9FFDF035D4EB41EDA8105847 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51DC7D5F96084735A1C3497B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109949FD33A64757A5F624FD /* Debug */,
+				EE531EB227C04CD197104C1F /* Release */,
+				107C36B59F014F4587C5FA2E /* MinSizeRel */,
+				4BA5A26E590D4B09B6397B12 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC469F16AAC84B9587A65482 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6081F618848A48974ABB4 /* Debug */,
+				B05B8F9CBD1546B09BF53854 /* Release */,
+				5C8D7AC77F0E4669B4352A03 /* MinSizeRel */,
+				9C1CFEA472FA4AB2BA593A58 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA46443BEAE1464C85934BC1 /* Project object */;
+}

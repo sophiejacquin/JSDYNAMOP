@@ -1,0 +1,3 @@
+/Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeFiles/ALL_BUILD.dir
+/Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeFiles/OneMachineEA.dir
+/Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeFiles/ZERO_CHECK.dir

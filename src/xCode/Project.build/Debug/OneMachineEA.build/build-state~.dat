@@ -1,0 +1,163 @@
+TOneMachineEA
+v4
+r1
+cCheck dependencies
+cCompileC xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp
+c000000005526AF2C00000000000032D8
+t1428598572
+s13016
+i<iostream>
+i"eo"
+i"utils/eoRealVectorBounds.h"
+i"eoOneMachine.h"
+i"eoOneMachineInit.h"
+i"eoOneMachineEvalFunc.h"
+i"eoOneMachineQuadCrossover.h"
+i"eoOneMachineMutation.h"
+i"eoOneMachineStat.h"
+i<make_pop.h>
+i<make_continue.h>
+i<make_checkpoint.h>
+i<make_algo_scalar.h>
+i<make_run.h>
+i<eoScalarFitness.h>
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachine.h
+c000000005526A5AD0000000000000CC4
+t1428596141
+s3268
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachineEvalFunc.h
+c000000005526A5AD000000000000074D
+t1428596141
+s1869
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachineInit.h
+c000000005526A5AD00000000000006C4
+t1428596141
+s1732
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachineMutation.h
+c000000005526A5AD00000000000006D4
+t1428596141
+s1748
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachineQuadCrossover.h
+c000000005526A5AD000000000000084C
+t1428596141
+s2124
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/eoOneMachineStat.h
+c000000005526A5AD00000000000007D9
+t1428596141
+s2009
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Debug/OneMachineEA
+t2
+s0
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.LinkFileList
+c000000005526B0A0000000000000007E
+t1428598944
+s126
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o
+t2
+s0
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Script-3AD188D620524EEB8878CF9F.sh
+c000000005526B0A000000000000000B9
+t1428598944
+s185
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_algo_scalar.h
+c0000000041599BBE0000000000002A6E
+t1096391614
+s10862
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_checkpoint.h
+c0000000047F0E8AD0000000000002D9B
+t1206970541
+s11675
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_continue.h
+c0000000047F0DEDF000000000000189B
+t1206968031
+s6299
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_pop.h
+c000000004337CAE700000000000010A7
+t1127729895
+s4263
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_run.h
+c000000003AE506740000000000000611
+t988087924
+s1553
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo
+c00000000480860CE000000000000163F
+t1208508622
+s5695
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoScalarFitness.h
+c00000000456C6E5D0000000000000E37
+t1164734045
+s3639
+
+N/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/utils/eoRealVectorBounds.h
+c000000003E5E652D0000000000002F7F
+t1046373677
+s12159
+
+CBuild AST from /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9fb0b020e8d6ba41^7616b120e8d6ba41^---0#1#0#--18"Check dependencies36"4051E1F6-14FF-49B1-BE74-49E827BEF7F6-
+
+CCompileC xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s450291744.693608
+e450291745.392194
+r0
+xCompileC
+xxCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o
+x/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:25:
+oIn file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo:95:
+oIn file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h:32:
+o/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h:212:3: error: use of undeclared identifier 'check_sync' [3]
+o   check_sync(index, _pop[index]);
+o   ^
+o   this->
+ofix-it:"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h":{212:3-212:3}:"this->"
+o/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_algo_scalar.h:183:20: note: in instantiation of member function 'eoRouletteWorthSelect<eoOneMachine<eoScalarFitness<double, std::greater<double> > >, double>::operator()' requested here [3]
+o       select = new eoRouletteWorthSelect<EOT>(p2w);
+o                    ^
+o/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:100:10: note: in instantiation of function template specialization 'do_make_algo_scalar<eoOneMachine<eoScalarFitness<double, std::greater<double> > > >' requested here [3]
+o   return do_make_algo_scalar(_parser, _state, _eval, _continue, _op, _dist);
+o          ^
+o/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h:78:10: note: must qualify identifier to find this declaration in dependent base class [3]
+o     void check_sync(unsigned index, const EOT& _eo) {
+o          ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp809fb120e8d6ba41^4e5e6421e8d6ba41^-1549"In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h:32:In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo:95:In file included from /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:25:/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h:212:3: error: use of undeclared identifier 'check_sync' [3]   check_sync(index, _pop[index]);   ^   this->fix-it:"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h":{212:3-212:3}:"this->"/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_algo_scalar.h:183:20: note: in instantiation of member function 'eoRouletteWorthSelect<eoOneMachine<eoScalarFitness<double, std::greater<double> > >, double>::operator()' requested here [3]       select = new eoRouletteWorthSelect<EOT>(p2w);                    ^/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:100:10: note: in instantiation of function template specialization 'do_make_algo_scalar<eoOneMachine<eoScalarFitness<double, std::greater<double> > > >' requested here [3]   return do_make_algo_scalar(_parser, _state, _eval, _continue, _op, _dist);          ^/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h:78:10: note: must qualify identifier to find this declaration in dependent base class [3]     void check_sync(unsigned index, const EOT& _eo) {          ^1 error generated.1(21%IDEActivityLogMessage2@41"Use of undeclared identifier 'check_sync'-450291745#303#148#8(36%IDEActivityLogHeaderInclusionMessage3@118"In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h:32:-450291745#0#119#-0#-23%DVTTextDocumentLocation4@108"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#---3@96"In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo:95:-450291745#119#97#-0#-4@86"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo0000000000000000^94#18446744073709551615#94#18446744073709551615#18446744073709551615#0#---3@86"In file included from /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:25:-450291745#216#87#-0#-4@76"file://localhost/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp0000000000000000^24#18446744073709551615#24#18446744073709551615#18446744073709551615#0#---2@132"Use of undeclared identifier 'check_sync' in /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h-450291745#18446744073709551615#0#-0#-4@103"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h0000000000000000^211#2#211#2#18446744073709551615#0#---26%IDEActivityLogFixItMessage5@27"Fix-It: replace with this->-450291745#501#120#4(3@118"In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h:32:-450291745#18446744073709551615#0#-0#-4@108"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoFitnessScalingSelect.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#---3@96"In file included from /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo:95:-450291745#18446744073709551615#0#-0#-4@86"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eo0000000000000000^94#18446744073709551615#94#18446744073709551615#18446744073709551615#0#---3@86"In file included from /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp:25:-450291745#18446744073709551615#0#-0#-4@76"file://localhost/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp0000000000000000^24#18446744073709551615#24#18446744073709551615#18446744073709551615#0#---2@118"Fix-It: replace with this-> in /Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h-450291745#18446744073709551615#0#-0#-4@103"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h0000000000000000^211#2#211#2#18446744073709551615#0#---0#23"com.apple.dt.IDE.fix-it4@103"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h0000000000000000^211#2#211#2#18446744073709551615#0#---6"this->2@157"In instantiation of member function 'eoRouletteWorthSelect<eoOneMachine<eoScalarFitness<double, std::greater<double> > >, double>::operator()' requested here139"In instantiation of member function 'eoRouletteWorthSelect<eoOneMachine<eoScalarFitness<double, std::greater<double> > >, double>::operator450291745#621#266#-0#-4@105"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do/make_algo_scalar.h0000000000000000^182#19#182#19#18446744073709551615#0#14"Semantic Issue--2@153"In instantiation of function template specialization 'do_make_algo_scalar<eoOneMachine<eoScalarFitness<double, std::greater<double> > > >' requested here-450291745#962#233#-0#-4@76"file://localhost/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp0000000000000000^99#9#99#9#18446744073709551615#0#14"Semantic Issue--2@72"Must qualify identifier to find this declaration in dependent base class-450291745#1285#178#-0#-4@103"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h0000000000000000^77#9#77#9#18446744073709551615#0#14"Semantic Issue--2#-4@103"file://localhost/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/eoSelectFromWorth.h0000000000000000^211#2#211#2#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation6@76"file://localhost/Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp0000000000000000^1670"CompileC xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o OneMachineEA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sophiejacquin/Desktop/OneMachine/src    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Debug/include -I/Users/sophiejacquin/Desktop/OneMachine/src/../src -I/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src -I/Users/sophiejacquin/Documents/paradiseo-1.3-beta2/paradiseo-eo/src/do -I/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/DerivedSources/x86_64 -I/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Debug -MMD -MT dependencies -MF /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.d -c /Users/sophiejacquin/Desktop/OneMachine/src/OneMachineEA.cpp -o /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Objects-normal/x86_64/OneMachineEA.o36"E1813207-36FA-476B-A0C9-A09C418D0308-
+
+CLd /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Debug/OneMachineEA normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/OneMachineEA.build/Script-3AD188D620524EEB8878CF9F.sh
+r0
+

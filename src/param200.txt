@@ -1,0 +1,136 @@
+irace	version: 1.06.997
+********************************************************************************
+* irace: An implementation in R of Iterated Race                               *
+* Copyright (C) 2010-2014                                                      *
+* Manuel Lopez-Ibanez     <manuel.lopez-ibanez@ulb.ac.be>                      *
+* Jeremie Dubois-Lacoste  <jeremie.dubois-lacoste@ulb.ac.be>                   *
+*                                                                              *
+* This is free software, and you are welcome to redistribute it under certain  *
+* conditions.  See the GNU General Public License for details. There is NO     *
+* warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  *
+*                                                                              *
+* irace builds upon previous code from the race package                        *
+* Copyright (C) 2003 Mauro Birattari                                           *
+********************************************************************************
+Warning: A default configuration file './tune-conf' has been found and will be read
+# 2015-05-11 14:37:56 CEST: Initialization
+# nbIterations: 5
+# minNbSurvival: 5
+# nbParameters: 9
+# seed: 1386298478.70891
+# confidence level: 0.95
+# remainingBudget: 1800
+# mu: 5
+
+# 2015-05-11 14:37:56 CEST: Iteration 1 of 5
+# experimentsUsedSoFar: 0
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 1800
+# currentBudget: 360
+# nbCandidates: 60
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         60|         39|  1.189e+07|         60|
+|x|          2|         60|         56|  1.282e+07|        120|
+|x|          3|         60|         56|  1.509e+07|        180|
+|x|          4|         60|         56|  1.448e+07|        240|
+|-|          5|         14|         56|  1.697e+07|        300|
+|=|          6|         14|         56|  1.734e+07|        314|
+|-|          7|          7|         56|  1.727e+07|        328|
+|=|          8|          7|         56|  1.814e+07|        335|
+|=|          9|          7|         56|  1.777e+07|        342|
+|=|         10|          7|         56|  1.909e+07|        349|
+|=|         11|          7|         56|  1.819e+07|        356|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:          56	mean value:  1.819e+07
+
+Description of the selected candidate:
+   pCross   pMut mut1Rate   pHyb pTiming tMut popSize profHyb tailleHyb
+56 0.1535 0.8143    0.464 0.2528  0.4695  167      27     899         3
+
+
+# Elite candidates:
+   pCross   pMut mut1Rate   pHyb pTiming tMut popSize profHyb tailleHyb
+56 0.1535 0.8143   0.4640 0.2528  0.4695  167      27     899         3
+28 0.3720 0.3820   0.7963 0.9238  0.5895   37      70    1141         3
+52 0.3370 0.1291   0.6894 0.0244  0.1637   86     101    5229         6
+31 0.4193 0.3225   0.9849 0.0956  0.0173   54     108    6602         4
+7  0.3085 0.2113   0.2419 0.1595  0.4043   67      25    6634         3
+# 2015-05-16 06:07:45 CEST: Iteration 2 of 5
+# experimentsUsedSoFar: 356
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 1444
+# currentBudget: 361
+# nbCandidates: 51
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         51|         26|  1.533e+07|         51|
+|x|          2|         51|         26|  1.468e+07|        102|
+|x|          3|         51|         26|  1.348e+07|        153|
+|x|          4|         51|         26|  1.301e+07|        204|
+|-|          5|         10|         21|  1.153e+07|        255|
+|-|          6|          4|         26|  1.112e+07|        265|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:          26	mean value:  1.112e+07
+
+Description of the selected candidate:
+   pCross   pMut mut1Rate   pHyb pTiming tMut popSize profHyb tailleHyb
+81 0.1938 0.4043   0.7552 0.0884  0.4037  134      12    1350         3
+
+
+# Elite candidates:
+   pCross   pMut mut1Rate   pHyb pTiming tMut popSize profHyb tailleHyb
+81 0.1938 0.4043   0.7552 0.0884  0.4037  134      12    1350         3
+76 0.1819 0.5041   0.9595 0.0049  0.4393  184      38    3352         4
+94 0.4761 0.8489   0.3593 0.0608  0.8220  135      16    2114         3
+99 0.5622 0.3959   0.3850 0.1113  0.3399  137      15     361         3
+# 2015-05-18 00:44:11 CEST: Iteration 3 of 5
+# experimentsUsedSoFar: 621
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 1179
+# currentBudget: 393
+# nbCandidates: 49
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         49|          7|  1.159e+07|         49|
+
+
+# Best candidates (as commandlines)
+1  --pCross 0.2718 --pMut 0.6769 --mut1Rate 0.785 --pHyb 0.0209 --pTiming 0.2451 --tMut 138 --popSize 147 --profHyb 52 --tailleHyb 7
+2  --pCross 0.6978 --pMut 0.4722 --mut1Rate 0.8444 --pHyb 0.1349 --pTiming 0.013 --tMut 126 --popSize 58 --profHyb 76 --tailleHyb 5
+3  --pCross 0.3411 --pMut 0.7355 --mut1Rate 0.8912 --pHyb 0.0316 --pTiming 0.2093 --tMut 117 --popSize 139 --profHyb 64 --tailleHyb 7
+4  --pCross 0.2415 --pMut 0.8433 --mut1Rate 0.6793 --pHyb 0.011 --pTiming 0.1453 --tMut 130 --popSize 42 --profHyb 113 --tailleHyb 6
+5  --pCross 0.8025 --pMut 0.392 --mut1Rate 0.9305 --pHyb 0.0905 --pTiming 0.1903 --tMut 128 --popSize 84 --profHyb 137 --tailleHyb 5
+

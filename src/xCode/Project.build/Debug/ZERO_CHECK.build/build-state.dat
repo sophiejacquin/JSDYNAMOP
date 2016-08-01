@@ -1,0 +1,59 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh
+c000000005538B39200000000000000BD
+t1429779346
+s189
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+c000000005526B0A000000000000000BD
+t1428598944
+s189
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies151e0864ebe8ba41^7d5b0864ebe8ba41^---0#1#0#--18"Check dependencies36"3456980F-0266-4051-A489-AF31CDFB41C7-
+
+CPhaseScriptExecution "CMake Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh
+s451472228.033620
+e451472228.057148
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh
+oecho ""
+o
+omake -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'55160964ebe8ba41^73a10e64ebe8ba41^-151"echo ""make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-451472228#0#8#-0#-----2@87"make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make-451472228#9#87#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-451472228#96#55#-0#-----0#0#0#--301"PhaseScriptExecution "CMake Rules" xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh    cd /Users/sophiejacquin/Desktop/OneMachine/src    /bin/sh -c /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-942F6B485DB442048B30AB50.sh36"3F8B97DA-AB4D-44EA-9D45-54C77D522958-
+
+CPhaseScriptExecution "CMake Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+s450706460.899963
+e450706461.380847
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+oecho ""
+o
+omake -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make
+o/Applications/CMake\ 2.8-8.app/Contents/bin/cmake -H/Users/sophiejacquin/Desktop/OneMachine/src -B/Users/sophiejacquin/Desktop/OneMachine/src/xCode
+oCMake Warning (dev) in CMakeLists.txt:
+o  No cmake_minimum_required command is present.  A line of code such as
+o
+o    cmake_minimum_required(VERSION 2.8)
+o
+o  should be added at the top of the file.  The version specified may be lower
+o  if you wish to support older CMake versions for this project.  For more
+o  information run "cmake --help-policy CMP0000".
+oThis warning is for project developers.  Use -Wno-dev to suppress it.
+o
+o-- Configuring done
+o-- Generating done
+o-- Build files have been written to: /Users/sophiejacquin/Desktop/OneMachine/src/xCode
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'1346eb1c3cddba41^bb7e611d3cddba41^-795"echo ""make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make/Applications/CMake\ 2.8-8.app/Contents/bin/cmake -H/Users/sophiejacquin/Desktop/OneMachine/src -B/Users/sophiejacquin/Desktop/OneMachine/src/xCodeCMake Warning (dev) in CMakeLists.txt:  No cmake_minimum_required command is present.  A line of code such as    cmake_minimum_required(VERSION 2.8)  should be added at the top of the file.  The version specified may be lower  if you wish to support older CMake versions for this project.  For more  information run "cmake --help-policy CMP0000".This warning is for project developers.  Use -Wno-dev to suppress it.-- Configuring done-- Generating done-- Build files have been written to: /Users/sophiejacquin/Desktop/OneMachine/src/xCode13(21%IDEActivityLogMessage2@8"echo ""-450706461#0#8#-0#-----2@87"make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make-450706461#9#87#-0#-----2@148"/Applications/CMake\ 2.8-8.app/Contents/bin/cmake -H/Users/sophiejacquin/Desktop/OneMachine/src -B/Users/sophiejacquin/Desktop/OneMachine/src/xCode-450706461#96#148#-0#-----2@39"CMake Warning (dev) in CMakeLists.txt:-450706461#244#39#-0#-----2@72"  No cmake_minimum_required command is present.  A line of code such as-450706461#283#72#-0#-----2@40"    cmake_minimum_required(VERSION 2.8)-450706461#356#40#-0#-----2@78"  should be added at the top of the file.  The version specified may be lower-450706461#397#78#-0#-----2@74"  if you wish to support older CMake versions for this project.  For more-450706461#475#74#-0#-----2@49"  information run "cmake --help-policy CMP0000".-450706461#549#49#-0#-----2@70"This warning is for project developers.  Use -Wno-dev to suppress it.-450706461#598#70#-0#-----2@20"-- Configuring done-450706461#669#20#-0#-----2@19"-- Generating done-450706461#689#19#-0#-----2@87"-- Build files have been written to: /Users/sophiejacquin/Desktop/OneMachine/src/xCode-450706461#708#87#-0#-----0#0#0#--301"PhaseScriptExecution "CMake Rules" xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh    cd /Users/sophiejacquin/Desktop/OneMachine/src    /bin/sh -c /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh36"5DE5BCEF-8C9E-4A20-A9D9-074B2DD19834-
+

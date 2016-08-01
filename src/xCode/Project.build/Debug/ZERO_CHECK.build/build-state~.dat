@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+
+N/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+c000000005526B0A000000000000000BD
+t1428598944
+s189
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4ed19120e8d6ba41^9d0f9320e8d6ba41^---0#1#0#--18"Check dependencies36"D6BF89D6-6E50-4ACC-8026-80418D056F99-
+
+CPhaseScriptExecution "CMake Rules" /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+s450291744.578355
+e450291744.671410
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh
+oecho ""
+o
+omake -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'f46a9420e8d6ba41^22e1ab20e8d6ba41^-151"echo ""make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-450291744#0#8#-0#-----2@87"make -f /Users/sophiejacquin/Desktop/OneMachine/src/xCode/CMakeScripts/ReRunCMake.make-450291744#9#87#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-450291744#96#55#-0#-----0#0#0#--301"PhaseScriptExecution "CMake Rules" xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh    cd /Users/sophiejacquin/Desktop/OneMachine/src    /bin/sh -c /Users/sophiejacquin/Desktop/OneMachine/src/xCode/Project.build/Debug/ZERO_CHECK.build/Script-CFC47FDAA1104887A5B7A435.sh36"853EF431-0F59-47C3-BFEF-901837045564-
+
